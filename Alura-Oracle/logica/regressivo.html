@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    mostra("Contagem decrescente de 20 a 0: ");
+    var conta = 20;
+    while (conta >= 0){
+        mostra(conta);
+        conta--;
+    }
+    pulaLinha();
+    mostra("FIM");
+</script>

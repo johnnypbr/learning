@@ -1,0 +1,81 @@
+<meta charset="UTF-8">
+
+<script>
+	
+
+	function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(texto) {
+        document.write(texto);
+        pulaLinha();
+    }
+    var ano = 2016;
+
+    //document.write("Flávio tem " + (ano - 1977) + " anos");
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+    //pulaLinha();
+    //document.write("Joaquim tem " + (ano - 1996) + " anos");
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+    //pulaLinha();
+    //document.write("Barney tem " + (ano - 1976) + " anos");
+    mostra("Barney tem " + (ano - 1976) + " anos");
+    //pulaLinha();
+
+
+    document.write("<br>A  media das idades é  " + (39 + 20 + 41)/3);
+
+    var mdia = (39 + 20 + 41)/3;
+    document.write("<br><br><br><br>");
+    document.write("A  <b>mdia</b> das idades é  " + mdia);
+
+	document.write("<br><br>");
+    document.write("A <b>mdia</b> das idades é  " + Math.round(mdia));
+
+
+    var media = ((ano-1977)+(ano-1996)+(ano-1976))/3;
+    document.write("<br><br><br><br>");
+    document.write("A <b>media</b> das idades é  " + media);
+
+	document.write("<br><br>");
+    document.write("A <b>media</b> das idades é  " + Math.round(media));
+
+
+    var iddFlavio = ano-1977;
+    var iddJoaquim = ano-1996;
+    var iddBarney = ano-1976;
+
+    var meddia = (iddFlavio + iddJoaquim + iddBarney)/3;
+    document.write("<br><br>Flávio tem " + iddFlavio + " anos");
+    document.write("<br>");
+    document.write("Joaquim tem " + iddJoaquim + " anos");
+    document.write("<br>");
+    document.write("Barney tem " + iddBarney + " anos");
+    document.write("<br>");
+
+    document.write("<br><br>");
+    document.write("A <b>meddia</b> das idaddes é  " + meddia);
+
+    document.write("<br><br>");
+    document.write("A <b>meddia</b> das idades é  " + Math.round(meddia));
+
+
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+
+    var medddia = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+    document.write("<br><br><br>");
+    document.write("<br>A média das idades é " + medddia);
+    document.write("<br>A média das idades é " + Math.round(medddia));
+
+    var nome = "Flávio";
+
+    document.write("<br>");
+    document.write("A idade de " + nome + " é " + idadeFlavio);
+
+
+</script>
