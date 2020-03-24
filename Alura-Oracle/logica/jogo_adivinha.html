@@ -4,13 +4,20 @@
 
 <script>
     let segredo = 5;
-    let botao = document.querySelector("input");
+    let inserir = document.querySelector("input");
 
     function verificar(){
-        if(input.value == segredo){
+        if(inserir.value == segredo){
             alert("Você acertou, Miserávi!!!");
         } else {
             alert("Errrrrrooooouu");
         }
     }
+    let botao = document.querySelector("button");
+    botao.onclick = verificar;
+        
+    
+
+
+    document.write("<br><br>FIM!!!");
 </script>

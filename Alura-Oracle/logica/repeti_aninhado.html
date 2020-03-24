@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulaLinha(){
+        document.write("<br>");
+    }
+    function mostra(texto){
+        document.write(texto);
+        pulaLinha();
+    }
+
+    mostra("Exibindo 3 linhas de 10 estrelas:");
+    pulaLinha();
+
+    for(let linha = 1; linha <= 3; linha++){
+        mostra("**********");
+    }
+    pulaLinha();
+    pulaLinha();
+    for(let i = 1; i <= 3; i++){
+        for(let ii = 1; ii <= 10; ii++){
+            document.write("*");
+        }
+        pulaLinha();
+    }
+    pulaLinha();
+
+    mostra("FIM");
+</script>

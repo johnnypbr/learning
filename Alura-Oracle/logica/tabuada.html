@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+    function pulalinha(){
+        document.write("<br>");
+    }
+    function mostra(texto){
+        document.write(texto);
+        pulalinha();
+    }
+
+    
+    let tabuada, i = 0;
+    tabuada = parseInt(prompt("Vamos fazer a tabuada de que número?"));
+    mostra(tabuada);
+    while(i<=10){
+        mostra(tabuada + " * " + i + " = " + (tabuada*i));
+        i++;
+    }
+    mostra("FIM1");
+    pulalinha();
+
+    for(let ii = 1; ii <= 10; ii++){
+        mostra(tabuada + " * " + ii + " = " + (tabuada*ii));
+    }
+    mostra("FIM2");
+    pulalinha();
+
+</script>
