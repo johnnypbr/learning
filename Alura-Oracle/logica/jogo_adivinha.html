@@ -7,7 +7,9 @@
     let inserir = document.querySelector("input");
 
     function verificar(){
-        if(inserir.value == segredo){
+        if(isNaN(inserir.value)){
+            alert("insira um número inteiro válido!");
+        } else if(inserir.value == segredo){
             alert("Você acertou, Miserávi!!!");
         } else {
             alert("Errrrrrooooouu");
